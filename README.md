@@ -43,7 +43,7 @@ RpicAPI 是一个开源的随机图片API服务，旨在为开发者提供简单
 1.**标准样式**：网站地址/api.php?category=分类，具体参考下方案例。
 
    ```
-Example https://rpic.yourwebsite.com/api.php?category=aesthetic
+https://rpic.yourwebsite.com/api.php?category=aesthetic
    ```
 
 2.本项目提供的分类一览，你可以修改并增添。
@@ -67,7 +67,7 @@ Example https://rpic.yourwebsite.com/api.php?category=aesthetic
 
 如果你觉得RpicAPI对你有帮助，欢迎通过扫描下方二维码向我们捐赠，以支持项目的持续维护和发展。你的每一份贡献都将是我们前进的动力！
 
-<img src="https://cdn1.origz.com/api/v3/file/get/10/wxzsm.png?sign=0dhXZPq_HTYOW-2EXpBR5msk8RJN3lSfJprk2pD_AY8%3D%3A0" style="zoom:60%;" />
+<img src="https://cdn1.origz.com/api/v3/file/get/10/wxzsm.png?sign=0dhXZPq_HTYOW-2EXpBR5msk8RJN3lSfJprk2pD_AY8%3D%3A0" style="zoom:40%;" />
 
 ---
 
