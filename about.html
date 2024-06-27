@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>源初云随机图片API - 关于</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico"> <!-- Favicon引用 -->
+    <style>
+        /* 临时内联样式，应移至styles.css */
+        .blur-card {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(10px);
+            border-radius: 10px;
+            padding: 2rem;
+            margin: 2rem auto;
+            max-width: 800px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="https://rpic.origz.com"><i data-feather="home"></i> 首页</a></li>
+            <li><a href="https://blog.origz.com"><i data-feather="file-text"></i> 博客</a></li>
+            <li><a href="https://github.com/keemoir"><i data-feather="github"></i> Github</a></li>
+            <li><a href="about.html" class="active"><i data-feather="info"></i> 关于</a></li>
+        </ul>
+    </nav>
+  <div class="announcement">
+        <i data-feather="alert-circle"></i>
+        <p>欢迎使用源初云随机图片Api，在这里你可以了解到如何使用该api。</p>
+    </div>
+   <main class="about-section">
+    <div class="blur-card">
+        <h1>👋 关于本随机图片API网站</h1>
+        <p>🌟 起源于iro博客主题有个主页的图片展示，由于引用外界api常常会遇到失效的问题，于是打算自建一个api来用，该api只需要将图片链接放入对应的txt文档里面，即可自动调用，如果你觉得图片在自己网站加载太慢，也可以选择图床来使用，api会自动判断设备类型并进行不同的显示。✨</p>
+        
+        <h2>🌐 网站协议</h2>
+        <p>📜 我们严格遵守版权法规，确保每一张图片均合法使用。在享受服务的同时，请留意并遵守图片的使用许可。🙏</p>
+        
+        <h2>📚 使用说明</h2>
+        <p>📚 使用超级简单：</p>
+        <ol>
+            <li>选择类别：摄影、二次元、AI等，应有尽有。</li>
+            <li>获取链接：点击“复制”按钮，轻松获取图片链接。</li>
+            <li>自由嵌入：复制链接，随意粘贴到您的作品中。</li>
+        </ol>
+    </div>
+</main>
+
+   <!--建议保留作者信息哦，谢谢啦 -->
+    <footer>
+     <p>© 2024 RpicAPI | Powered by <a href="https://github.com/keemoir" style="text-decoration: none; color: inherit;">KeeMo</a> | 备案号：<a href="https://beian.miit.gov.cn" style="text-decoration: none; color: inherit;">津ICP备2024016575号</a> | 源初云提供CDN加速服务</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script>
+        feather.replace();
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
